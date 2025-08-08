@@ -1,0 +1,167 @@
+{
+    "about": {
+        "paragraphs": [
+            "Sou um Engenheiro de Software com sólida experiência em arquiteturas de software e planejamento de sistemas. Experiente em aplicar tecnologias e metodologias chave para a criação de soluções escaláveis, seguras e eficientes. Possuo expertise em desenvolvimento Full-stack, inteligência artificial e administração de sistemas Linux.",
+            "Estou sempre disponível para conversar a respeito de novos projetos!"
+        ]
+    },
+    "experiences": [
+        {
+            "title": "Desenvolvedor | Nacif",
+            "date": "Abril 2025 - Junho 2025",
+            "about": "Fiz a criação de um sistema de WEB scrapers para a coleta de dados relacionados a passagens de diferentes companhias aéreas.",
+            "duties": [
+                "Realizei engenharia reversa em sites de companhias aéreas através do estudo de código ofuscado e da comunicação cliente/servidor, possibilitando o scraping das informações diretamente dos servidores.",
+                "Desenvolvi o sistema responsável pelo scraping, no qual gerencia os Workers encarregados pela coleta de dados, realiza o caching de informações e processa os dados a serem exibidos.",
+                "Desenvolvi três bots para diferentes companhias aéreas, permitindo que a extração com base em uma pesquisa realizada na interface da aplicação ocorresse simultaneamente e em diferentes fontes.",
+                "Realizei melhorias significativas em um dos bots de mineração, implementando correções com base em análise de tráfego e debugging. O resultado foi o aumento da resiliência do sistema e uma elevação na taxa de sucesso da extração de dados, passando de 5% para 100%."
+            ]
+        },
+        {
+            "title": "Engenheiro de Software | Autônomo",
+            "date": "Outubro 2024 - Março 2025",
+            "about": "Desenvolvi um sistema de casa inteligente com diversas funcionalidades de automação , destacando a implementação de inteligência artificial para facilitar o acesso à informação e processamento de dados brutos.",
+            "duties": [
+                "Desenvolvi um sistema de casa inteligente, com funcionalidades como controle de luzes, armazenamento de arquivos, dispositivos plug and play remotos, player de música e inteligência artificial disponível para os usuários.",
+                "Realizei a análise de requisitos funcionais e não-funcionais, resultando em uma especificação precisa do que precisava ser realizado.",
+                "Implementei APIs REST, com foco principalmente em segurança e performance.",
+                "Adotei arquiteturas como Microservices e Hexagonal, facilitando a escalabilidade e manutenção do sistema, permitindo crescimento sem perda de desempenho.",
+                "Implementei a comunicação com o API Gateway utilizando WebSockets, melhorando a resposta do sistema em até 40% em comparação com requisições HTTP convencionais.",
+                "Utilizei Docker, Redis e RabbitMQ como estrutura base para aplicação, facilitando processamento de multiplas requisições e permitindo um fácil deploy.",
+                "Implementei Webhooks nos microsserviços do sistema, permitindo a troca de informação com base em eventos.",
+                "Desenvolvi um aplicativo mobile em React Native para servir como interface do sistema.",
+                "Implementei uma solução de caching no lado do usuário, resultando em uma melhoria de 80% no tempo de resposta de certas requisições."
+            ]
+        },
+        {
+            "title": "Contribuições Open Source",
+            "date": "Outubro 2024 - Novembro 2024",
+            "about": "Contribuí para quatro projetos de código aberto no GitHub, colaborando com a comunidade e melhorando consideravelmente projetos abertos.",
+            "duties": [
+                "Contribuí para quatro projetos de código aberto no GitHub, colaborando com a comunidade e melhorando consideravelmente projetos abertos.",
+                "Desenvolvi e implementei novas funcionalidades que se alinharam perfeitamente com as funcionalidades pré-existentes, resultando em uma integração suave e melhoria da experiência do usuário.",
+                "Realizei refatorações significativas no código-fonte, aprimorando a legibilidade e facilitando a manutenção, o que levou a uma excelente redução no tempo necessário para a criação de novas features.",
+                "Apliquei patches e soluções para bugs e problemas identificados, contribuindo para a estabilidade e confiabilidade dos projetos."
+            ]
+        },
+        {
+            "title" : "Desenvolvedor Full-stack | Exiti",
+            "date": "Junho 2024 - Outubro 2024",
+            "about": "Contribuí no desenvolvimento de um software de monitoramento para usinas hidrelétricas, garantindo alta performance e escalabilidade para monitoramento em tempo real.",
+            "duties": [
+                "Contribuí no desenvolvimento de um software de monitoramento para usinas hidrelétricas, utilizando tecnologias como Java (Spring Boot), Hibernate, JSF, Python e PostgreSQL, garantindo alta performance e escalabilidade para monitoramento em tempo real.",
+                "Apliquei design patterns e técnicas de otimização de código, melhorando a legibilidade, reduzindo a complexidade do código e aumentando a eficiência de outros desenvolvedores em manutenções futuras.",
+                "Realizei pesquisas de UI/UX de forma proativa, colaborando no desenvolvimento de uma nova interface que resultou em uma experiência do usuário significativamente aprimorada",
+                "Atuei como ponto de contato entre os clientes e a equipe técnica, alinhando as demandas dos usuários com as necessidades do sistema, o que garantiu a entrega de funcionalidades de forma eficiente e dentro do prazo estipulado."
+            ]
+        },
+        {
+            "title": "Desenvolvedor Back-end | Gym System",
+            "date": "Fevereiro 2024 - Maio 2024",
+            "about": "Contribui para o desenvolvimento de um sistema de gerenciamento para academias, proporcionando uma solução eficiente para controle de membros, disponibilização de videoaulas, criação de treinos e monitoramento do progresso de alunos e de suas lesões.",
+            "duties": [
+                "Contribui para o desenvolvimento de um sistema de gerenciamento para academias utilizando Typescript, React e React Native, proporcionando uma solução eficiente para controle de membros, disponibilização de videoaulas, criação de treinos, monitoramento do progresso de alunos e de eventuais lesões.",
+                "Estruturei a aplicação utilizando Microsserviços, garantindo alta escalabilidade, o que permitiu à plataforma crescer sem atrasos no desenvolvimento.",
+                "Desenvolvi e implementei estratégias de segurança no sistema, incluindo comunicação segura, métodos de autenticação robustos e criptografia/hashing de dados sensíveis, assegurando a proteção de informações dos usuários e conformidade com normas de segurança.",
+                "Implementei APIs REST eficientes e escaláveis, permitindo que o aplicativo móvel se integrasse de maneira fluida e segura ao sistema, melhorando a experiência do usuário e a acessibilidade das funcionalidades."
+
+            ]
+        },
+        {
+            "title": "Desenvolvedor Full-stack | Freelancer",
+            "date": "Junho 2023 - Outubro 2023",
+            "about": "Contribuí para o desenvolvimento de um sistema de E-commerce local, aprimorando a experiência de compra online e aumentando a eficiência operacional.",
+            "duties": [
+                "Criei páginas web responsivas e modernas, garantindo uma experiência de usuário consistente e otimizada em dispositivos móveis e desktop, resultando em um aumento de 15% na taxa de conversão.",
+                "Refatorei uma base de código Typescript já existente, aplicando injeção de dependências e boas práticas de desenvolvimento, o que melhorou a testabilidade e escalabilidade do sistema, reduzindo drasticamente o tempo de desenvolvimento de novas features.",
+                "Projetei e implementei o banco de dados do sistema, garantindo uma estrutura performática e segura para o armazenamento de dados de clientes, produtos e transações."
+            ]
+        },
+        {
+            "title": "Engenheiro de Software | Audicon Contábil",
+            "date": "Fevereiro 2022 - Agosto 2022",
+            "about": "Desenvolvi uma solução interna que automatiza cálculos contábeis e otimiza o controle e o armazenamento de informações financeiras.",
+            "duties": [
+                "Planejei e defini as funcionalidades do sistema com base em requisitos funcionais e não funcionais, coletados por meio de entrevistas com os usuários.",
+                "Desenvolvi o Back-End utilizando Typescript e arquitetura em camadas (N-tier), com funcionalidades voltadas para cálculos contábeis, cadastro de clientes e preferências, além do armazenamento seguro de informações fiscais.",
+                "Projetei e implementei um sistema de backup que permite exportar todos os dados da aplicação em um único arquivo .zip, com suporte à restauração completa a partir desse mesmo arquivo.",
+                "Desenvolvi o Front-End da aplicação com React.js, garantindo uma interface acessível a todos os colaboradores do escritório.",
+                "Configurei remotamente os computadores do escritório para acessar o sistema via HTTPS, utilizando certificados self-signed para assegurar a comunicação.",
+                "Criei e distribuí um arquivo de configuração de hosts padronizado, permitindo que os usuários acessassem o sistema por meio de uma URL amigável, em vez de utilizar endereços IP."
+            ]
+        },
+        {
+            "title": "Team Leader | ADS",
+            "date": "Abril 2021 - Dezembro 2021",
+            "about": "Desenvolvi um sistema de criptografia para arquivos e mensagens, oferecido como um serviço com assinatura paga.",
+            "duties": [
+                "Realizei a definição das regras de negócio e fui responsável pelo desenvolvimento da lógica do back-end utilizando Typescript.",
+                "Centralizei a comunicação e alinhei as demandas técnicas entre as equipes de Front-end, Back-end e Documentação, assegurando um fluxo de trabalho integrado e eficiente.",
+                "Trabalhei em conjunto com a equipe de Front-end para a implementação de melhorias de layout e animações, otimizando tanto a estética quanto a usabilidade do sistema.",
+                "Desenvolvi uma versão offline do sistema em C#, permitindo que o serviço fosse executado localmente, sem necessidade de conexão com a internet.",
+                "Graças à liderança eficaz e à colaboração constante, a equipe alcançou o desempenho máximo, refletindo o comprometimento e a qualidade do trabalho desenvolvido."
+            ]
+
+        }
+    ],
+    "projects": [
+        {
+            "name": "Assembly Toolkit",
+            "coverLink": "https://raw.githubusercontent.com/Romulo-Peres/Romulo-Peres/refs/heads/main/assembly%20(3).png",
+            "description": [
+                "Framework open-source para ensino de programação em Assembly e C.",
+                "Conhecimentos públicos a respeito de processadores, assemblers e programação em baixo nível.",
+                "Diversos códigos em assembly para exemplificar como essa tecnologia funciona."
+            ],
+            "tags": [
+                "Assembly",
+                "x86",
+                "Low-level programming",
+                "C"
+            ],
+            "link": "https://github.com/Romulo-Peres/Assembly-toolkit",
+            "linkColor": "#A800EA"
+        },
+        {
+            "name": "Icewall",
+            "coverLink": "https://raw.githubusercontent.com/Romulo-Peres/Icewall/refs/heads/main/assets/icewall-logo.png",
+            "description": [
+                "Implementação de um firewall destinado ao sistema operacional Linux.",
+                "Utilizado character devices para se comunicar com aplicativos userland.",
+                "Sistema completamente configurável através de regras de filtragem."
+            ],
+            "tags": [
+                "Kernel",
+                "Linux",
+                "C language",
+                "Infosec"
+            ],
+            "link": "https://github.com/Romulo-Peres/Icewall",
+            "linkColor": "#129CFF"
+        },
+        {
+            "name": "Real Snake",
+            "coverLink": "https://raw.githubusercontent.com/Romulo-Peres/Romulo-Peres/refs/heads/main/snake.png",
+            "description": [
+                "Implementação do Snake Game em Assembly, projetado para ser executado em real mode.",
+                "Utilizado profundos conhecimentos em estruturas de dados, lógica e programação.",
+                "Jogo de alto nível programado utilizando as mais simples instruções de máquina.",
+                "Sistema de boot, gerenciamento de memória, interface e muito mais, tudo feito do zero."
+            ],
+            "tags": [
+                "Real mode",
+                "Assembly",
+                "x86-16",
+                "Bootloaders",
+                "Data structures"
+            ],
+            "link": "https://github.com/Romulo-Peres/real-snake/",
+            "linkColor": "#30D84F"
+        }
+    ],
+    "contacts": {
+        "linkedin": "https://www.linkedin.com/in/r%C3%B4mulo-peres-81a613231/",
+        "github": "https://github.com/Romulo-Peres/",
+        "email": "romulo.moraes.dev@gmail.com"
+    }
+}
