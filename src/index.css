@@ -1,0 +1,56 @@
+:root {
+    --mobile-horizontal-padding: 20px;
+    --desktop-horizontal-padding: 75px;
+    --small-desktop-horizontal-padding: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow: hidden;
+    background-color: #0A0A0A;
+    padding: 0px var(--mobile-horizontal-padding) 0px var(--mobile-horizontal-padding);
+}
+
+.primary-text-color {
+    color: white;
+}
+
+.light-sphere {
+    position: absolute;
+    transform: translate(-50%, -50%); /* keep centered on the left/top coords */
+    width: 50vmin;            /* big and responsive — grows with viewport */
+    height: 50vmin;           /* keep it circular */
+    pointer-events: none;     /* won't block clicks */
+    border-radius: 50%;
+    background: radial-gradient(
+        circle at center,
+        rgba(61, 108, 196, 0.20) 0%,   /* brighter than original, softer than strong */
+        rgba(61, 108, 196, 0.11) 25%,  /* mid glow */
+        rgba(61, 108, 196, 0.04) 42%,  /* smoother fade */
+        rgba(61, 108, 196, 0) 70%      /* transparent edges */
+      );
+    filter: blur(0px);       /* softens the edges */
+    mix-blend-mode: screen;   /* better on dark backgrounds; try 'overlay' or 'soft-light' */
+    opacity: 1;            /* you can lower this if you need it even subtler */
+    transform-origin: center;
+    z-index: -1;
+  }
+@media screen and (min-width: 1000px) {
+    body {
+        padding: 0px var(--small-desktop-horizontal-padding) 0px var(--small-desktop-horizontal-padding);
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    body {
+        padding: 0px var(--desktop-horizontal-padding) 0px var(--desktop-horizontal-padding);
+    }
+}

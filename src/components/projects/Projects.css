@@ -1,0 +1,22 @@
+.project-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.projects-sphere-1 {
+    top: 1030%;
+    left: 85%;
+}
+
+.projects-sphere-2 {
+    top: 1110%;
+    left: 10%;
+}
+
+.projects-sphere-3 {
+    top: 1220%;
+    left: 70%;
+}

@@ -1,0 +1,29 @@
+.article-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.articles-sphere-1 {
+    top: 170%;
+    left: 85%;
+    z-index: -1;
+}
+
+.articles-sphere-2 {
+    top: 300%;
+    left: 15%;
+}
+
+@media screen and (min-width: 830px) {
+    .articles-sphere-1 {
+        top: 145%;
+        left: 85%;
+    }
+
+    .articles-sphere-2 {
+        top: 225%;
+        left: 10%;
+    }
+}

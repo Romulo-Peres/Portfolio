@@ -1,0 +1,210 @@
+#about-section {
+    font-size: 1.4rem;
+}
+
+.about-sphere-1 {
+    top: 5%;
+    left: 85%;
+}
+
+.about-sphere-2 {
+    top: 95%;
+    left: 25%;
+}
+
+#contacts {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+header {
+    color: white;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    grid-area: header;
+}
+
+#about {
+    grid-area: about;
+}
+
+#about-photo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    grid-area: photo;
+}
+
+.header-text {
+    color: white;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-items p {
+    cursor: pointer;
+}
+
+.nav-items p:hover {
+    color: #A9BBD3;
+}
+
+.header-name {
+    font-size: 1.7rem;
+}
+
+.introduction {
+    color: #A9BBD3;
+}
+
+.role {
+    color: #2979FF;
+}
+
+#about > p {
+    margin-bottom: 10px;
+}
+
+.cyphers-photo {
+    width: 50%;
+    max-width: 300px;
+    transform: rotateZ(-5.45deg);
+    border: 4px solid #2979FF;
+    box-shadow: 8px 8px #2979FF;
+}
+
+@media screen and (min-width: 700px) {
+    .about-sphere-2 {
+        left: 5%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .about-sphere-2 {
+        top: 90%;
+        left: 15%;
+    }
+
+    .about-sphere-1 {
+        top: 30%;
+        left: 90%;
+    }
+
+    #about-section {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 100px auto;
+        grid-template-columns: calc(55vw - calc(var(--small-desktop-horizontal-padding))) calc(45vw - calc(var(--small-desktop-horizontal-padding)));
+        gap: 13vh 0px;
+        grid-template-areas: "header header"
+                             "about photo"
+    }
+
+    .cyphers-photo {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1 / 1;
+        max-width: 350px;
+        max-height: 350px;
+        object-fit: cover;
+    }
+
+    #about-section {
+        font-size: 1.8rem;
+    }
+
+    .header-name {
+        font-size: 2.2rem;
+    }
+
+    #about-photo {
+        padding-top: 0;
+    }
+
+    nav {
+        flex: 11;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .nav-items {
+        display: flex;
+    }
+
+    .nav-items > p {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    #about-section {
+        width: calc(100% + var(--desktop-horizontal-padding));
+    }
+
+    .cyphers-photo {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1 / 1;
+        max-width: 400px;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    #about {
+        padding-left: 10px;
+    }
+
+    header {
+        padding-left: 10px;
+    }
+
+    #about-section {
+        transform: translateX(calc(var(--desktop-horizontal-padding) * -1));
+        display: grid;
+        grid-template-rows: 100px auto;
+        grid-template-columns: calc(var(--desktop-horizontal-padding)) 55% auto;
+        grid-template-areas: "contacts header header"
+                             "contacts about photo"
+    }
+
+    #contacts {
+        grid-area: contacts;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .contacts-bar1, .contacts-bar2 {
+        background-color: #DEDEDE;
+        width: 3px;
+    }
+
+    .contacts-bar1 {
+        height: 70%;
+    }
+
+    .contacts-bar2 {
+        height: 25%;
+    }
+
+    .contacts-icons {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .contacts-icons > img {
+        margin-bottom: 10px;
+        width: 40px;
+    }
+}
